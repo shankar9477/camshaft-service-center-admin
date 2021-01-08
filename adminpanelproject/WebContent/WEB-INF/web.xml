@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <welcome-file-list>
+
+    <welcome-file>adminlogin.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>adminloginservlet1</servlet-name>
+    <servlet-class>com.servlet.adminloginservlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminloginservlet1</servlet-name>
+    <url-pattern>/adminloginservlet1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>empregistrationservlet</servlet-name>
+    <servlet-class>com.servlet.empregistrationservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>empregistrationservlet</servlet-name>
+    <url-pattern>/empregistrationservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>empregistrationEdit</servlet-name>
+    <servlet-class>com.servlet.empregistrationEdit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>empregistrationEdit</servlet-name>
+    <url-pattern>/empregistrationEdit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>serviceservlet</servlet-name>
+    <servlet-class>com.servlet.serviceservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>serviceservlet</servlet-name>
+    <url-pattern>/serviceservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>inventoryservlet</servlet-name>
+    <servlet-class>com.servlet.inventoryservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>inventoryservlet</servlet-name>
+    <url-pattern>/inventoryservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>customerservlet</servlet-name>
+    <servlet-class>com.servlet.customerservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>customerservlet</servlet-name>
+    <url-pattern>/customerservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>technicianservlet</servlet-name>
+    <servlet-class>com.servlet.technicianservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>technicianservlet</servlet-name>
+    <url-pattern>/technicianservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
